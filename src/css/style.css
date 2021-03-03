@@ -6,6 +6,44 @@
   max-width: 1140px;
 }
 
+.title {
+  font-family: Roboto;
+  font-size: 26px;
+  font-weight: bold;
+  text-align: center;
+  color: #2e2e2e;
+  text-transform: uppercase;
+}
+
+.button {
+  padding: auto;
+  border-radius: 45px;
+  width: 160px;
+  height: 45px;
+  background-color: #ec644b;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: normal;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffffff;
+  border: none;
+}
+
+.button_promo {
+  margin-top: 44px;
+}
+
+.button_bs {
+  width: 230px;
+  height: 57px;
+  display: block;
+  margin: 0 auto;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: bold;
+}
+
 .promo {
   min-height: 680px;
   background: url("../img/1st_bg.jpg") center center/cover no-repeat;
@@ -154,22 +192,66 @@
   width: 390px;
 }
 
-.button {
-  padding: auto;
-  border-radius: 45px;
-  width: 160px;
-  height: 45px;
-  background-color: #ec644b;
-  font-family: Roboto;
-  font-size: 12px;
-  font-weight: normal;
-  text-transform: uppercase;
-  text-align: center;
-  color: #ffffff;
-  border: none;
+.promo__adv {
+  margin: 35px 0 39px;
 }
 
-.button_promo {
-  margin-top: 44px;
+.promo__adv_item {
+  text-align: center;
+}
+
+.promo__adv_img {
+  display: inline-block;
+  height: 50px;
+  width: 64px;
+  margin-bottom: 15px;
+}
+
+.promo__adv_descr {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 300;
+  text-align: center;
+  color: #ffffff;
+}
+
+.advantages {
+  min-height: 590px;
+  background-color: #f3f3f3;
+  padding: 58px 0 15px 0;
+}
+
+.advantages__title {
+  margin-bottom: 32px;
+}
+
+.advantages__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 36px;
+}
+
+.advantages__item_img {
+  width: 50px;
+  height: 55px;
+}
+
+.advantages__item_descr {
+  margin-left: 20px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.57;
+  text-align: left;
+  color: #3a3a3a;
+}
+
+.advantages__item_title {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: bold;
+  color: #ec644b;
+  text-align: left;
 }
 /*# sourceMappingURL=style.css.map */

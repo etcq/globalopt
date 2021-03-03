@@ -1,0 +1,32 @@
+.advantages {
+    min-height: 590px;
+    background-color: #f3f3f3;
+    padding: 58px 0 15px 0;
+    &__title {
+        margin-bottom: 32px;
+    }
+    &__item {
+        display: flex;
+        margin-bottom: 36px;
+        &_img {
+            width: 50px;
+            height: 55px;
+        }
+        &_descr {
+            margin-left: 20px;
+            font-family: Roboto;
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 1.57;
+            text-align: left;
+            color: #3a3a3a;
+        }
+        &_title {
+            font-family: Roboto;
+            font-size: 16px;
+            font-weight: bold;
+            color: $main_color;
+            text-align: left;
+        }
+    }
+}
