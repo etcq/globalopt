@@ -1,0 +1,17 @@
+.button {
+	padding: auto;
+	border-radius: 45px;
+	width: 160px;
+	height: 45px;
+	background-color: $main_color;
+	font-family: Roboto;
+	font-size: 12px;
+	font-weight: normal;
+	text-transform: uppercase;
+	text-align: center;
+	color: #ffffff;
+	border: none;
+    &_promo {
+        margin-top: 44px;
+    }
+}
