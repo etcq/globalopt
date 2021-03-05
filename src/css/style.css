@@ -6,15 +6,6 @@
   max-width: 1140px;
 }
 
-.title {
-  font-family: Roboto;
-  font-size: 26px;
-  font-weight: bold;
-  text-align: center;
-  color: #2e2e2e;
-  text-transform: uppercase;
-}
-
 .button {
   padding: auto;
   border-radius: 45px;
@@ -247,11 +238,68 @@
   color: #3a3a3a;
 }
 
-.advantages__item_title {
+.title {
+  font-family: Roboto;
+  font-size: 26px;
+  font-weight: bold;
+  text-align: center;
+  color: #2e2e2e;
+  text-transform: uppercase;
+  line-height: 1.1;
+}
+
+.line {
+  width: 148px;
+  height: 1px;
+  background-color: #ec644b;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 17px;
+}
+
+.subtitle {
+  font-family: Roboto;
+  font-size: 21px;
+  font-weight: 300;
+  text-align: center;
+  color: #2e2e2e;
+  line-height: 1;
+  margin-bottom: 0;
+}
+
+.item_title {
   font-family: Roboto;
   font-size: 16px;
   font-weight: bold;
   color: #ec644b;
   text-align: left;
+}
+
+.works {
+  padding: 51px 0 57px 0;
+  position: relative;
+}
+
+.works__wrapper {
+  margin-top: 37px;
+}
+
+.works__item {
+  width: 360px;
+  padding: 0;
+  margin-right: 30px;
+}
+
+.works__item:last-child {
+  margin-right: 0;
+}
+
+.works__item_descr {
+  margin-top: 28px;
+}
+
+.works__title {
+  font-size: 18px;
+  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */
