@@ -1,0 +1,25 @@
+.agent {
+    min-height: 342px;
+    background: url('../img/agent_bg.jpg') center (center / cover) no-repeat;
+    padding: 58px 0 75px 0;
+    &__face {
+        width: 102px;
+        height: 102px;
+        margin: 0 auto;
+        border-radius: 100%;
+        border: 1px solid #fff;
+        margin-bottom: 20px;
+        img {
+            margin: 21px 27px 30px 27px;
+        }
+    }
+    &__title {
+        text-transform: none;
+        color: #ffffff;
+    }
+    &__subtitle {
+        font-size: 19px;
+        line-height: 1.42;
+        color: #ffffff;
+    }
+}

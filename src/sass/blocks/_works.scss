@@ -1,0 +1,22 @@
+.works {
+    padding: 51px 0 57px 0;
+    position: relative;
+    &__wrapper {
+        margin-top: 37px;
+    }
+    &__item {
+        width: 360px;
+        padding: 0;
+        margin-right: 30px;
+        &:last-child {
+            margin-right: 0;
+        }
+        &_descr {
+            margin-top: 28px;
+        }    
+    }
+    &__title {
+        font-size: 18px;
+        text-align: center;
+    }
+}
