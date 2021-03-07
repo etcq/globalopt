@@ -10,10 +10,15 @@
 
 @import 'base/_variables.scss';
 @import 'blocks/buttons';
+@import 'blocks/_input';
 @import 'blocks/_promo.scss';
 @import 'blocks/advantages';
 @import 'blocks/titles';
-// @import 'blocks/works';
-// @import 'blocks/agent';
-// @import 'blocks/delivery';
-@import 'blocks/consultation'
+@import 'blocks/works';
+@import 'blocks/insert';
+@import 'blocks/delivery';
+@import 'blocks/consultation';
+@import 'blocks/plan';
+@import 'blocks/review';
+@import 'blocks/question';
+@import 'blocks/footer';

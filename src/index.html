@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" type="text/css" href="css/slick.css">
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Global OPT</title>
 </head>
@@ -144,11 +146,11 @@
             </div>
         </div>
     </section>
-    <section class="agent">
+    <section class="insert">
         <div class="container">
-            <div class="agent__face"><img src="icons/Agent.png" alt="Agent"></div>
-            <h1 class="title agent__title">Агент в Китае</h1>
-            <h2 class="subtitle agent__subtitle">Русскоговорящие представители компании без труда найдут именно тот товар, который будет отвечать Вашим запросам как по качеству, так и по цене.</h2>
+            <div class="insert__face"><img src="icons/Agent.png" alt="Agent"></div>
+            <h1 class="title insert__title">Агент в Китае</h1>
+            <h2 class="subtitle insert__subtitle">Русскоговорящие представители компании без труда найдут именно тот товар, который будет отвечать Вашим запросам как по качеству, так и по цене.</h2>
         </div>
     </section>
     <section class="delivery">
@@ -203,19 +205,143 @@
                 <div class="consultation__icon">
                     <div class="consultation__img"><img src="icons/consultation.png" alt="consultation"></div>
                 </div>
-                <input type="text" required placeholder="Ваше имя...">
-                <input required placeholder="Ваш номер телефона..." type="text">
-                <input required placeholder="Ваш e-mail..." type="text">
+                <input class="input" type="text" required placeholder="Ваше имя...">
+                <input class="input" required placeholder="Ваш номер телефона..." type="text">
+                <input class="input" required placeholder="Ваш e-mail..." type="text">
                 <div class="button__wrapper"><button class="button">Отправить заявку</button>  </div>  
             </form>
         </div>
     </section>
-    <section class="managers">
+    <section class="insert insert_2rd">
         <div class="container">
-            <div class="agent__face"><img src="icons/managers.png" alt="managers"></div>
-            <h1 class="title agent__title">Менеджеры компании</h1>
-            <h2 class="subtitle agent__subtitle">Подберут для Вас оптимальную схему грузоперевозки. Проведут контроль закупок, организуют прямые поставки от завода-изготовителя.</h2>
+            <div class="insert__face"><img src="icons/managers.png" alt="managers"></div>
+            <h1 class="title insert__title">Менеджеры компании</h1>
+            <h2 class="subtitle insert__subtitle">Подберут для Вас оптимальную схему грузоперевозки. Проведут контроль закупок, организуют прямые поставки от завода-изготовителя.</h2>
         </div>
     </section>
+    <section class="plan">
+        <div class="container">
+            <h1 class="title">Схема работы с нами</h1>
+            <div class="plan__row">
+                <div class="plan__item">
+                    <img src="icons/work_plan/application.png" alt="application">
+                    <h3 class="item_title plan__title">Заявка</h3>Вы оставляете заявку на нашем сайте или звоните нам
+                </div>
+                <div class="plan__item">
+                    <img src="icons/work_plan/analitycs.png" alt="analitycs">
+                    <h3 class="item_title plan__title">Аналитика доставки</h3>Мы просчитываем варианты доставки Вашего груза
+                </div>
+                <div class="plan__item">
+                    <img src="icons/work_plan/contract.png" alt="contract">
+                    <h3 class="item_title plan__title">Договор</h3>Заключаем с Вами договор о поставке груза из Китая
+                </div>
+                <div class="plan__item">
+                    <img src="icons/work_plan/werehouse_box.png" alt="werehouse">
+                    <h3 class="item_title plan__title">Доставка на наш склад</h3>Связываемся с Вашим поставщиком в Китае и договариваемся о доставке груза на наш склад 
+                </div>
+            </div>
+            <div class="plan__row plan__row_second">
+                <div class="plan__item">
+                    <img src="icons/work_plan/check.png" alt="check">
+                    <h3 class="item_title plan__title">Проверка груза</h3>Мы проверяем, собираем и упаковываем перед отправкой Ваш груз на своём складе
+                </div>
+                <div class="plan__item">
+                    <img src="icons/work_plan/goods.png" alt="goods">
+                    <h3 class="item_title plan__title">Доставка груза</h3>Мы перевозим ваш груз до места назначения и производим таможенную очистку
+                </div>
+                <div class="plan__item">
+                    <img src="icons/work_plan/cash.png" alt="cash">
+                    <h3 class="item_title plan__title">Оплата</h3>Оплачиваете доставку груза при получении 
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="review">
+            <h1 class="title">отзывы наших клиентов</h1>
+            <div class="line"></div>
+            <h2 class="subtitle">Мы всегда стараемся помочь клиентам, что бы они обращались к нам снова</h2>
+            <div class="carousel">
+                <div class="review__item">
+                    <img src="img/photo_1.png" alt="photo" class="photo_img">
+                    <div class="review__descr">
+                        <h3 class="review__item_subtitle">Анисимова Ольга</h3>
+                        Хочу рассказать о компании Global Opt. Самое главное что меня радует, это быстрый поиск и анализ определенного товара. Доставляла через компанию уже много раз, от расходных материалов для отеля, ло дольших партий детской одежды. Буду продолжать пользтваьбся услугами даной компании
+                    </div>
+                </div>
+                <div class="review__item">
+                    <img src="img/photo_1.png" alt="photo" class="photo_img">
+                    <div class="review__descr">
+                        <h3 class="review__item_subtitle">Анисимова Ольга</h3>
+                        Хочу рассказать о компании Global Opt. Самое главное что меня радует, это быстрый поиск и анализ определенного товара. Доставляла через компанию уже много раз, от расходных материалов для отеля, ло дольших партий детской одежды. Буду продолжать пользтваьбся услугами даной компании
+                    </div>
+                </div>
+                <div class="review__item">
+                    <img src="img/photo_2.jpg" alt="photo" class="photo_img">
+                    <div class="review__descr">
+                        <h3 class="review__item_subtitle">Джонни</h3>
+                        Хочу рассказать о компании Global Opt. Самое главное что меня радует, это быстрый поиск и анализ определенного товара. Доставляла через компанию уже много раз, от расходных материалов для отеля, ло дольших партий детской одежды. Буду продолжать пользтваьбся услугами даной компании
+                    </div>
+                </div>
+                <div class="review__item">
+                    <img src="img/Gubka_Bob.jpg" alt="photo" class="photo_img">
+                    <div class="review__descr">
+                        <h3 class="review__item_subtitle">Губка боб</h3>
+                        Хочу рассказать о компании Global Opt. Самое главное что меня радует, это быстрый поиск и анализ определенного товара. Доставляла через компанию уже много раз, от расходных материалов для отеля, ло дольших партий детской одежды. Буду продолжать пользтваьбся услугами даной компании
+                    </div>
+                </div>
+                <div class="review__item">
+                    <img src="img/photo_1.png" alt="photo" class="photo_img">
+                    <div class="review__descr">
+                        <h3 class="review__item_subtitle">Анисимова Ольга</h3>
+                        Хочу рассказать о компании Global Opt. Самое главное что меня радует, это быстрый поиск и анализ определенного товара. Доставляла через компанию уже много раз, от расходных материалов для отеля, ло дольших партий детской одежды. Буду продолжать пользтваьбся услугами даной компании
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section class="question">
+        <div class="container">
+            <div class="question__wrapper">
+                <div class="question__title">
+                    <h1 class="title">Остались вопросы?</h1>
+                    <h2 class="subtitle">Напишите нам!</h2>
+                </div>
+                <form id="questionForm" class="question__form">
+                    <input type="text" required placeholder="Ваше имя..." class="input">
+                    <input type="text" required placeholder="Ваш номер телефона..." class="input">
+                    <input type="text" required placeholder="Ваш e-mail..." class="input">
+                    <textarea form="questionForm" type="textarea" required placeholder="Сообщение..." class="input input_msg"></textarea>
+                    <button class="button">Отправить заявку</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2245.606371738619!2d37.62502931605969!3d55.74796799983212!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54af8f4b2bb81%3A0x45d8b81f41916c35!2z0KHQsNC00L7QstC90LjRh9C10YHQutCw0Y8g0YPQuy4sIDUsINCc0L7RgdC60LLQsCwgMTE1MDM1!5e0!3m2!1sru!2sru!4v1615139200218!5m2!1sru!2sru" width="100%" height="450" style="border:0;" allowfullscreen="" loading="fast"></iframe>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <div class="footer__logo"></div>
+                <div class="footer__descr">Global Opt - Доставка грузов из Китая в Россию и СНГ</div>
+                <div class="contacts promo__contacts">
+                Есть вопросы?<br>
+                <a href="#" class="promo__contacts_phone">+7 (926) 423 01 00</a>
+            </div>
+            <button class="button">Перезвоните мне</button>
+            </div>
+            <div class="footer__line"></div>
+            <div class="footer__wrapper">
+                <div class="footer_year">© 2010 Scratch.com.ua</div>
+                <a href="#">Политика конфидециальности</a>
+                <div class="footer__creator">Создание сайта: Антоха Сушников</div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>

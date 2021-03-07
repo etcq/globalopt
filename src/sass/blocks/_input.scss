@@ -1,0 +1,19 @@
+.input {
+    border: solid 1px rgba(0, 0, 0, 0.21);
+    width: 268px;
+    height: 45px;
+    border-radius: 20px;
+    padding: 0 28px;
+    font-size: 13px;
+    &_msg {
+        width: 813px;
+        height: 71px;
+        border-radius: 8px;
+        margin-top: 8px;
+        padding: 18px 25px;
+        resize: none;
+        margin-bottom: 8px;
+    }
+    
+        
+}

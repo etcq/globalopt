@@ -1,17 +1,17 @@
-.agent {
+.insert {
     min-height: 342px;
     background: url('../img/agent_bg.jpg') center (center / cover) no-repeat;
     padding: 58px 0 75px 0;
     &__face {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         width: 102px;
         height: 102px;
         margin: 0 auto;
         border-radius: 100%;
         border: 1px solid #fff;
         margin-bottom: 20px;
-        img {
-            margin: 21px 27px 30px 27px;
-        }
     }
     &__title {
         text-transform: none;
@@ -21,5 +21,8 @@
         font-size: 19px;
         line-height: 1.42;
         color: #ffffff;
+    }
+    &_2rd {
+        background: url('../img/manager_bg.jpg') center (center / cover) no-repeat;
     }
 }

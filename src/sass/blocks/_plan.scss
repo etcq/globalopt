@@ -1,0 +1,30 @@
+.plan {
+    min-height: 454px;
+    background-color: #f3f3f3;
+    padding: 51px 0 46px 0;
+    &__row {
+        display: flex;
+        margin-top: 29px;
+        justify-content: space-between;
+        &_second {
+            justify-content: space-evenly;
+
+        }
+    }
+    &__item {
+        width: 250px;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 1.43;
+        text-align: center;
+        color: #3a3a3a;
+        img {
+            margin-bottom: 15px;
+        }
+    }
+    &__title {
+        text-align: center;
+    }
+}
